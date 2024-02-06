@@ -8,7 +8,7 @@ const html = fs.readFileSync("template.html", "utf8");
 const options = {
   format: "A4",
   orientation: "portrait",
-  border: "0mm",
+  border: "10mm",
   header: {
     height: "15mm",
   },
@@ -16,6 +16,15 @@ const options = {
     height: "28mm",
   },
 };
+
+const user = {
+    name: 'Dmitri Coroliuc',
+    idnp: '2002004092146',
+    mun: 'Bălți',
+    str: 'Decebal',
+    num: '168',
+    ap: '26'
+}
 
 const users = [
   {
