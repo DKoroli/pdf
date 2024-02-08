@@ -3,7 +3,7 @@ const pdf = require("pdf-creator-node");
 const fs = require("fs");
 
 // Read HTML Template
-const html = fs.readFileSync("template.html", "utf8");
+const html = fs.readFileSync("template2.html", "utf8");
 
 const options = {
   format: "A4",
@@ -46,7 +46,7 @@ const document = {
   data: {
     users: users,
   },
-  path: "./output.pdf",
+  path: "./output2.pdf",
   type: "",
 };
 
