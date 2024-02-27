@@ -51,7 +51,7 @@ const document = {
 };
 
 pdf
-  .create(document, options)
+  .create(document)
   .then((res) => {
     console.log(res);
   })
