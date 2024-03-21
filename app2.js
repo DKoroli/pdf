@@ -18,33 +18,42 @@ const options = {
 };
 
 const user = {
-    name: 'Dmitri Coroliuc',
+    name: 'Дмитрий Королюк',
     idnp: '2002004092146',
-    mun: 'Bălți',
-    str: 'Decebal',
+    mun: 'Бэлць',
+    str: 'Дечебал',
     num: '168',
-    ap: '26'
+    ap: '26',
+    tel: '079330243',
+    email: 'dimakoroliuk@gmail.com',
+    cad: '0.30055-1025-100',
+    obmun: 'Бэлць',
+    obstr: 'А. Руссо',
+    obnum: '14А',
+    obap: '',
+    object: 'Торговый павильон',
+    obyardage: '78'
 }
 
-const users = [
-  {
-    name: "Shyam",
-    age: "26",
-  },
-  {
-    name: "Navjot",
-    age: "26",
-  },
-  {
-    name: "Vitthal",
-    age: "26",
-  },
-];
+// const users = [
+//   {
+//     name: "Shyam",
+//     age: "26",
+//   },
+//   {
+//     name: "Navjot",
+//     age: "26",
+//   },
+//   {
+//     name: "Vitthal",
+//     age: "26",
+//   },
+// ];
 
 const document = {
   html: html,
   data: {
-    users: users,
+    user: user,
   },
   path: "./output2.pdf",
   type: "",
